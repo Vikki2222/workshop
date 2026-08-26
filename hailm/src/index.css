@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+.place{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(45, 255, 26);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
